@@ -1,0 +1,121 @@
+<html>
+<head>
+    <title>Do You Like Pandas? (yeah I like pandas)</title>
+<style>
+    body{
+        background-color: #FDF4E7;
+    }
+     #outercontainer{
+            background-color: #FBDEB9;
+            color: #535657;
+            border-radius: 20px;
+            padding-left: 20px;
+            width: 1000px;
+            padding: 20px 50px 1px;
+            margin: auto;
+            font-family:'Lato', sans-serif;
+        }
+    .label{
+        
+        font-size: 14pt;
+        
+    }
+    #wwf{
+        width: 150px;
+        float: right;
+        margin: 30px
+    }
+    h1{
+        font-family:'Fira Sans Condensed', sans-serif;
+        font-size: 40pt;
+        color: black;
+    }
+    .largebox{
+        height: 50px;
+        width: 500px;
+    }
+    .mediumbox{
+        width: 200px;
+    }
+    .smallbox{
+        width: 80px;
+    }
+    
+</style>
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Lato" rel="stylesheet">
+    <div id="outercontainer">
+        <img id="wwf" src="wwflogo.png">
+        <h1 title="Mysteries abound made of deep energy (energy)"> World Wide Fund for Nature Survey </h1>
+        <form method="post"action="http://www.usc.edu/cgi-bin/mail_form/halpan@usc.edu">
+        <div class="label" title="Foes all around well now we'll go fearless and free" >Name:</div> 
+            <input type="text" name="fullname" class="mediumbox" required="1" placeholder="Charles is a nice name." autofocus="1"> <br>
+        <div class="label" title="I'll give you strength and you'll give me love that's how we'll live (that's how we'll live!)">Age:</div>
+            <input type="text" name="age" maxlength="3" class="smallbox" placeholder="3 Digit Max" ><br>    
+        <div class="label" title="Your courage won't fade, if you're with me my enemies will never win!">Email:</div>
+             <input type="email" name="email" class="mediumbox" placeholder="Probably includes an @" ><br>
+        <div class="label" title="We will fight for love and glory, we will love to tell a story">What is the current date?</div>
+            <input type="date" name="startdate" class="mediumbox" required="1" > <br> <br>
+            
+            
+         <div class="label" title="There is nothing we can live through nothing can ever dies, we will rise again!">How many animal species do you know (approxiamately) by name?</div>
+                <input title= "It's over 9000!!!!!!!!" type="range" name="speciesyouknow" min="1" max="9001">
+                       onchange="showing.value=this.value">
+                <output name="showing"></output>
+                <br>
+            
+            <br>
+            
+         <div class="label" title="Don't stop, Don't stop were in luck now!">How often do you think about animals?</div>
+                <input type="radio" name="think" value="day" checked="1"> Daily<br>
+                <input type="radio" name="think" value="week"> Once or Twice a Week<br>
+                <input type="radio" name="think" value="month"> A few times a month<br>
+                <input type="radio" name="think" value="never"> Never<br>
+                <input type="radio" name="think" value="always"> Every waking moment of my life<br>
+            
+            <br>
+           
+        <div class="label" title="Don't stop, there's no fun to be found">Which obscure animals you have heard of?</div>
+            <input type="checkbox" name="heard" >Kinkajou<br>
+            <input type="checkbox" name="heard" >Binturong <br>
+            <input type="checkbox" name="heard" >Pangolin <br>
+            <input type="checkbox" name="heard" checked="1">Horse <br>
+            <input type="checkbox" name="heard" >Kudu <br>
+            <input type="checkbox" name="heard" >Other(s) <br>
+            <textarea name="favoriteplot" class="largebox" placeholder="Lions and tigers and bears oh my!"></textarea>
+                <br><br>
+            
+                       
+        
+        <div class="label" title="We can't find paradise">How many animal species do you think go extinct each day?</div>
+                <input type="range" name="shows" min="1" max="667"
+                       
+                       onchange="show.value=this.value"  >
+                <output name="show"></output>
+                <br>
+        
+            
+        <div class="label" title="All we have to do is go! Go! Free your soul!">About how much would you be willing to donate to support animals per year?</div>
+            <select name="howmuch">
+                <option> Nothing they can all die for all I care.</option>
+                <option> $5.00 </option>
+                <option> $20.00</option>
+                <option> $50.00</option>
+                <option> $1000.00</option>
+                <option selected="1"> Over $9000</option>
+                </select>
+                <br>
+            
+        <div class="label" title="Dragon Soul!">What color do you connect with conservation?</div>
+                <input type="color" name="showcolor">
+                <br>
+        <div class="label">&nbsp;</div>
+                <input type="submit">
+                <input type="reset">
+            
+        </form>
+    </div> <!-- close outercontainer -->
+</body>
+</html>
